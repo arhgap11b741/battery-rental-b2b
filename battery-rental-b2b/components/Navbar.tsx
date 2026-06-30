@@ -16,15 +16,15 @@ export default function Navbar() {
           {/* 왼쪽: 서비스 로고 영역 */}
           <div className="flex items-center gap-8">
             <Link href="/" className="flex items-center gap-2">
-              <span className="text-xl font-black tracking-tight text-green-600">
-                Volt
-              </span>
-              <span className="text-xl font-bold tracking-tight text-gray-950">
+              <h1 className="text-xl font-black tracking-tight text-green-600">
+                Iseo
+              </h1>
+              <strong className="text-xl font-bold tracking-tight text-gray-950">
                 Rental
-              </span>
-              <span className="text-[10px] bg-green-50 text-green-700 font-semibold px-1.5 py-0.5 rounded border border-green-200">
+              </strong>
+              <small className="text-[10px] bg-green-50 text-green-700 font-semibold px-1.5 py-0.5 rounded border border-green-200">
                 B2B
-              </span>
+              </small>
             </Link>
 
             {/* 가운데: 메인 네비게이션 메뉴 */}
@@ -56,12 +56,12 @@ export default function Navbar() {
           {/* 오른쪽: 회원 정보 / 기업 파트너 영역 */}
           <div className="flex items-center gap-4">
             <div className="hidden sm:flex flex-col text-right">
-              <span className="text-xs font-semibold text-gray-800">
+              <strong className="text-xs font-semibold text-gray-800">
                 넥슨코리아 (파트너 회원)
-              </span>
-              <span className="text-[10px] text-gray-400">
+              </strong>
+              <strong className="text-[10px] text-gray-400">
                 nexon_b2b@nexon.com
-              </span>
+              </strong>
             </div>
             <div className="w-8 h-8 rounded-full bg-gray-100 border border-gray-200 flex items-center justify-center text-xs font-bold text-gray-600 shadow-sm">
               NX

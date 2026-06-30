@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/componentㅎs/Navbar";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "VoltRental - B2B 에너지 솔루션",
